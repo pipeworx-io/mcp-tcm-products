@@ -6,7 +6,7 @@ Licensed Chinese Proprietary Medicine Products" (~12,000 products), sourced
 from data.gov.sg, searchable by Chinese characters, pinyin (spaced or not),
 or English name.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1558+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1576+ live data sources.
 
 An HSA licence is a **safety and quality listing only** — it is not evidence
 that a product treats any condition. The dataset carries no ingredients and
@@ -103,7 +103,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1558+ data sources. The
+Both URLs reach the same gateway and the same 1576+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
