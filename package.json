@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-tcm-products",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Traditional Chinese Medicine (TCM) products licensed in Singapore — the HSA Chinese Proprietary Medicine listing (~12,000 products) sourced from data.gov.sg, searchable by Chinese characters, pinyin or English name.",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-a5bb8adbad8b39ec12f5769a8fe069bb73cb7a5998e118592c1c80f120a2b8f1",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }
