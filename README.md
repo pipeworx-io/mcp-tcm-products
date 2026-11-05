@@ -6,7 +6,7 @@ Licensed Chinese Proprietary Medicine Products" (~12,000 products), sourced
 from data.gov.sg, searchable by Chinese characters, pinyin (spaced or not),
 or English name.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1857+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 An HSA licence is a **safety and quality listing only** — it is not evidence
 that a product treats any condition. The dataset carries no ingredients and
@@ -46,7 +46,7 @@ Keyless.
 - CKAN's full-text `q` parameter is **rejected** by data.gov.sg
   (`"q is invalid"`, verified 2026-09-08) — server-side text search does not
   exist on this surface, which is why matching is done in the Worker.
-- Dataset metadata: <https://api-production.data.gov.sg/v2/public/api/datasets/d_2ae2e6beb458d059318c1c14ad899f98/metadata>
+- Dataset metadata.
   (managed by Health Sciences Authority, last updated 2026-08-07 at check time).
 
 ## Licence
@@ -103,7 +103,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1857+ data sources. The
+Both URLs reach the same gateway and the same 1866+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
